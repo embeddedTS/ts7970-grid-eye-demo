@@ -1,0 +1,3 @@
+[submodule "buildroot/buildroot-ts"]
+	path = buildroot/buildroot-ts
+	url = git@github.com:embeddedTS/buildroot-ts.git

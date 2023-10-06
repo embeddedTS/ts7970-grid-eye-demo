@@ -1,0 +1,18 @@
+#!/bin/sh
+
+case "$1" in
+	start|"")
+		# Misc X11 files and other caching all default to
+		# ~. Redfine $HOME and $MESA_SHADER_CACHE_DIR in order
+		# to set these to ramdisk to stop complaints
+		HOME=/tmp MESA_SHADER_CACHE_DIR=/tmp startx &
+		;;
+	stop)
+		exit 0
+		;;
+	*)
+		echo "Usage: startarmory {start|stop}" >&2
+		exit 1
+		;;
+esac
+

@@ -1,0 +1,5 @@
+/Makefile
+.qmake.stash
+*.o
+grid-eye-demo
+/moc_*
