@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/embeddedts-color-outline.svg</file>
+    </qresource>
+</RCC>

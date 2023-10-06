@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_TS7970_GRIDEYE_PATH/package/ts7970-grid-eye-demo/Config.in"

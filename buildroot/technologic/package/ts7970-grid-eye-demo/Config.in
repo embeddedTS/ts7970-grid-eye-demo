@@ -1,0 +1,4 @@
+config BR2_PACKAGE_TS7970_GRID_EYE_DEMO
+	bool "ts7970-grid-eye-demo"
+	help
+	  Grid-EYE display demo on TS-7970
